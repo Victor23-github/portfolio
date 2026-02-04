@@ -3,10 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-portfolio</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>my-portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div class="font-bold text-3xl text-red-500">Portfolio</div>
+  <body class="bg-slate-200">
+    <header
+      class="flex justify-around py-2 items-center border-b-2 border-gray-300"
+    >
+      <div id="logo" class="font-bold text-3xl"><a href="#home">V-dev</a></div>
+      <nav class="flex space-x-6 w-2xl justify-center text-lg font-semibold">
+        <a href="#about" class="">About</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="bg-blue-500 text-white px-4 py-2 rounded">
+        Get in Touch
+      </button>
+    </header>
+    <section id="home" class="grid place-items-center grid-cols-2">
+      <div class="border-2 border-blue-800 m-4 p-4 w-60">
+        <img
+          src="/images/stock-1.jpg"
+          alt=""
+          class="object-contain w-full h-full"
+        />
+      </div>
+        <div class="m-4 p-4">
+            <h1 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
+            <p class="text-lg">
+            Hi! I'm V-dev, a passionate developer specializing in creating
+            beautiful and functional web applications. Explore my projects and
+            get to know more about me!
+            </p>
+    </section>
+    <section id="about"></section>
+    <section id="project"></section>
+    <section id="contact"></section>
+    <footer></footer>
   </body>
 </html>
