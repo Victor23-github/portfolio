@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: "poppins", sans-serif;
+  scroll-behavior: smooth;
+  transition: all 0.3s ease-in-out;
+}
